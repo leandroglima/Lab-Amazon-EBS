@@ -2,28 +2,6 @@
 
 Este laboratório demonstra o processo de **criação de um volume EBS**, **escrita de dados**, **criação de snapshots**, **exclusão de dados** e **restauração a partir de snapshots** usando uma instância Amazon EC2.
 
----
-
-## 🗂 Visão Geral do Processo
-
-
-<img width="902" height="470" alt="Imagem colada" src="https://github.com/user-attachments/assets/baa2edb6-4dcf-46d2-9707-f75b7a8ba9df" />
-
-<img width="1838" height="1004" alt="Imagem colada (6)" src="https://github.com/user-attachments/assets/6822c14a-d521-47b7-aadd-05d1b18fd1ae" />
-
-<img width="1854" height="1051" alt="Imagem colada (4)" src="https://github.com/user-attachments/assets/c9f80069-1dc7-4db3-a08e-7b1fc5fead4c" />
-
-<img width="1854" height="1051" alt="Imagem colada (2)" src="https://github.com/user-attachments/assets/15301b5c-e674-4f84-a734-5de03fbfbe29" />
-
-
-<img width="1854" height="1051" alt="Imagem colada (3)" src="https://github.com/user-attachments/assets/552e1c99-b5a6-477e-8ab1-46446d64f6e8" />
-
-<img width="1838" height="1004" alt="Imagem colada (7)" src="https://github.com/user-attachments/assets/36950b35-46a2-415a-b227-33f170739da2" />
-
-<img width="1838" height="642" alt="Imagem colada (5)" src="https://github.com/user-attachments/assets/eff19544-20af-4e7d-a1f6-87b49f14489a" />
-
----
-
 ## 1️⃣ Criação e Configuração do Volume EBS
 
 1. **Criar o volume no EBS**
@@ -87,4 +65,26 @@ ls /mnt/data-store2/file.txt
 Verificar volumes montados
 
 df -h
+
+---
+
+## 🗂 Visão Geral do Processo
+
+
+<img width="902" height="470" alt="Imagem colada" src="https://github.com/user-attachments/assets/baa2edb6-4dcf-46d2-9707-f75b7a8ba9df" />
+
+<img width="1838" height="1004" alt="Imagem colada (6)" src="https://github.com/user-attachments/assets/6822c14a-d521-47b7-aadd-05d1b18fd1ae" />
+
+<img width="1854" height="1051" alt="Imagem colada (4)" src="https://github.com/user-attachments/assets/c9f80069-1dc7-4db3-a08e-7b1fc5fead4c" />
+
+<img width="1854" height="1051" alt="Imagem colada (2)" src="https://github.com/user-attachments/assets/15301b5c-e674-4f84-a734-5de03fbfbe29" />
+
+
+<img width="1854" height="1051" alt="Imagem colada (3)" src="https://github.com/user-attachments/assets/552e1c99-b5a6-477e-8ab1-46446d64f6e8" />
+
+<img width="1838" height="1004" alt="Imagem colada (7)" src="https://github.com/user-attachments/assets/36950b35-46a2-415a-b227-33f170739da2" />
+
+<img width="1838" height="642" alt="Imagem colada (5)" src="https://github.com/user-attachments/assets/eff19544-20af-4e7d-a1f6-87b49f14489a" />
+
+---
 
